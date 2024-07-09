@@ -36,4 +36,19 @@ p {
     text-align: center;
     color: #007BFF;
 }
+
+.btn {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
 }
