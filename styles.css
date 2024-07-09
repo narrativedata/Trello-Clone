@@ -16,3 +16,24 @@ p {
     text-align: center;
     font-size: 1.2em;
 }
+
+.trello-board {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.trello-column {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 30%;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.trello-column h2 {
+    text-align: center;
+    color: #007BFF;
+}
+}
